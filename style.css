@@ -1,0 +1,23 @@
+cover {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+.cover .masking {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 0;
+}
+.cover .credit {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.cover .social a {
+  color: white;
+}
