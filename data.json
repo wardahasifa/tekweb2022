@@ -1,0 +1,23 @@
+[
+    {
+        "ID": "1",
+        "Title": "Prospek Kerja Jurusan Sistem Informasi",
+        "Sumber": "Deepublish",
+        "Content": "Karena banyaknya konsentrasi ilmu yang dipelajari pada Jurusan Sistem Informasi, maka akan banyak pula prospek kerja yang mungkin didapatkan oleh lulusan",
+        "markdown": "ar1.md"
+    },
+    {
+        "ID": "2",
+        "Title": "Apa itu Jurusan Sistem Informasi?",
+        "Sumber": "Deepublish",
+        "Content": "Jurusan ini merupakan sebuah bidang studi yang menggabungkan ilmu komputer dengan ilmu lain.  ",
+        "markdown": "ar2.md"
+    },
+    {
+        "ID": "3",
+        "Title": "Kelebihan Jurusan Sistem Informasi",
+        "Sumber": " dosenIT.com",
+        "Content": "Dibandingkan dengan jurusan lain, khususnya jurusan yang berkaitan dengan komputer, jurusan Sistem Informasi memiliki beberapa kelebihan ",
+        "markdown": "ar3.md"
+    }
+]
