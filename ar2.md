@@ -1,0 +1,5 @@
+***Apa itu Sistem Informasi?***
+
+Sumber : Deepublish
+
+Jurusan Sistem Informasi merupakan studi ilmu yang mempelajari tentang sistem informasi. Jurusan ini merupakan sebuah bidang studi yang menggabungkan ilmu komputer dengan ilmu lain. Ilmu yang digabungkan dalam jurusan ini beragam, mulai dari ekonomi, manajemen, dan bisnis. Melalui jurusan sistem informasi ini, nantinya mahasiswa akan belajar lebih mendalam mengenai cara melakukan identifikasi dan proses sebuah bisnis di perusahaan berlangsung, mulai dari data-data atau profil bisnis, hingga merancang sistem yang sesuai dengan kebutuhan bisnis. Ketika menempuh studi di dalam jurusan ini, mahasiswa akan diberikan bekal ilmu mengenai mengelola software, hardware, melakukan perancangan sistem, menjalankan ilmu manajemen, hingga bisnis. Mahasiswa Jurusan ini juga akan diarahkan untuk mampu mengembangkan, memanfaatkan, serta mengelola suatu software atau hardware yang ada di dalam dunia bisnis, maupun milik perseorangan. Sehingga Jurusan Sistem Informasi menjadi aspek penting untuk merancang proses pengelolaan dan keberhasilan di lapangan.
