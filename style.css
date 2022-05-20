@@ -34,3 +34,6 @@ section {
 	padding-top: 5rem;
 }
 
+.card{
+	min-height: 700px;
+}
