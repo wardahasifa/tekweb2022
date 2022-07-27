@@ -1,25 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+/* Buat ngehide Scrollbar Bawaan websitenya  */
+body::-webkit-scrollbar {
+	/* display: none; */
+}
+
+:root {
+	--biru:#618CAD;
+	--putih:#F8F0EE;
+	--kuning:#FAC67A;
+	--peach:#F2AD8C;
+	--teks-gelap: #2e2e2e;
+}
 body {
-	min-height: 2000px;	
+	font-family: 'Ibarra Real Nova', serif;
+	/* min-height: 2000px;	 */
+	background-color: #fff;
 }
 
 h2 {
-	color: #6f42c1;
+	color: var(--teks-gelap);
+	position: relative;
+}
+
+h2::after {
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	border-radius: 10px;
+	background-color: var(--biru);
+	top: 2.5rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+ul {
+	list-style-position: outside ;
+	padding-left: 1.2rem;
+}
+
+.porto {
+	justify-content: center;
+	gap: 1rem;
+}
+
+.porto > .col {
+	border: 1.5px solid var(--peach);
+	border-radius: .4rem;
+	padding: 1rem;
+} 
+
+.card {
+	border-radius: .4rem;
+	border: 1.5px solid var(--putih);
+}
+
+.jumbotron h1 {
+	font-family: 'Yeseva One', cursive;
+	font-size: 4rem;
+	font-weight: 700;
+	color: #618CAD;
 }
 
 .jumbotron {
-	padding-top: 7rem;
-	background-color: 	#e2edff;
+	background-color: var(--putih);
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 100%;
 }
 
-a:link {
-	text-decoration: none;
+.btm-nav > a {
+	margin: 0 .4rem;
 }
-a:visited {
-	color: #202020;
+
+.profile {
+	border: 5px solid var(--peach);
+}
+
+a {
+	text-decoration: none;
+	color: var(--teks-gelap);
 }
 a:hover {
-	text-decoration: none;
-	color: #6f42c1;
+	color: var(--biru);
 }
 
 footer a {
@@ -29,11 +97,95 @@ footer {
 	padding-bottom: 9rem;
 }
 
+.scroll {
+	position:absolute;
+	bottom: 10rem;
+	right: .5rem;
+	transform: rotate(-90deg);
+	transform-origin: bottom right;
+	width:180px;
+	padding: .5rem 0;
+	background-color: var(--kuning);
+}
+.scroll i {
+	font-weight: 600;
+}
 
 section {
 	padding-top: 5rem;
 }
-
 .card{
 	min-height: 700px;
+	border: none;
 }
+
+.card > img {
+	border-bottom: 2px solid var(--peach);
+}
+
+.card-footer{
+	background-color:var(--peach);
+	position: relative;
+	height: 45px;
+	overflow: hidden;
+	border-top: 1px solid #d8855f ;
+}
+
+.card-footer > a {
+	font-size: 1.1rem;
+	font-weight:600 ;
+	position: absolute;
+	background-color: var(--kuning);
+	width: 140px;
+	text-align:end;
+	top: 0;
+	left: -100px;
+	padding: .55rem;
+	border-top-right-radius:.8rem ;
+	transition: 350ms;
+}
+
+.card-footer a:hover {
+	width: 240px;
+	color: var(--peach);
+	background-color: var(--teks-gelap);
+}
+
+.navbar {
+	background-color: var(--peach);
+}
+.navbar-dark .navbar-brand {
+	color: var(--teks-gelap);
+	font-size: 1.8rem;
+}
+
+.navbar-brand > i {
+	background-color: var(--kuning);
+	width: 50px;
+	height: 50px;
+	display: block;
+	text-align: center;
+	padding: .34rem 0;
+	border-radius: 50%;
+	transition: 350ms;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: var(--teks-gelap);
+	font-size: 1.17rem;
+	transition: 350ms;
+	border-top: 2px solid var(--peach);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	border-top: 2px solid #fff;
+}
+
+.container .artikel {
+	font-size: 1.35rem;
+	background-color: var(--peach);
+	border-bottom-right-radius: 2rem;
+	border: 5px solid var(--teks-gelap) !important;
+}
+
+
